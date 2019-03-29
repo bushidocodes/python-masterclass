@@ -1,0 +1,5 @@
+*.bak
+*.dat
+*.dir
+*.pickle
+__pycache__

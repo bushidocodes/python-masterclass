@@ -30,3 +30,9 @@ print("Pi is approximately {0:12.50}".format(22/7))
 # if the index isn't provided, they are assumed increment in order and have a 1:1 relationship with the args to format
 name = "Sean"
 print("Hi. My name is {} and my age is {}".format(name, age))
+
+# Because Strings are immutable, a new string must be allocated each time strings are appended
+# This means that appending to a string during inside a loop is super inefficient
+# It is better to use a join
+myList = ["a", "b", "c", "d"]
+print(", ".join(myList))
